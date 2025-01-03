@@ -1,4 +1,4 @@
-# MLOps Assignment - Module 1
+# MLOps - Module 1
 
 This repository contains the implementation of a CI/CD pipeline for a sample machine learning project as part of the MLOps assignment. The pipeline includes stages for linting, testing, and deploying a simple machine learning model.
 
