@@ -1,3 +1,4 @@
+import os
 import joblib
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -6,6 +7,9 @@ from sklearn.metrics import accuracy_score
 
 
 def train_model():
+    # Ensure the models directory exists
+    os.makedirs("models", exist_ok=True)
+
     # Load dataset
     data = load_iris()
     X, y = data.data, data.target
