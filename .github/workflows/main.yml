@@ -38,7 +38,7 @@ jobs:
           pip install -r requirements.txt
       - name: Run Tests
         env:
-          PYTHONPATH: src
+          PYTHONPATH: ${{ github.workspace }}
         run: pytest
 
   deploy:
@@ -55,5 +55,5 @@ jobs:
           pip install -r requirements.txt
       - name: Train and Save Model
         env:
-          PYTHONPATH: src
+          PYTHONPATH: ${{ github.workspace }}
         run: python src/train_model.py
