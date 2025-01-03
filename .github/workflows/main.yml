@@ -54,4 +54,6 @@ jobs:
         run: |
           pip install -r requirements.txt
       - name: Train and Save Model
+        env:
+          PYTHONPATH: src
         run: python src/train_model.py
