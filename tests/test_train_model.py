@@ -60,7 +60,7 @@ def test_model_accuracy_threshold():
     model_dir = "models"
     saved_model_file = next(
         (file for file in os.listdir(model_dir)
-          if file.startswith("iris_model_")), None
+         if file.startswith("iris_model_")), None
     )
     assert saved_model_file is not None, "Model file was not created."
     model_path = os.path.join(model_dir, saved_model_file)
@@ -73,6 +73,6 @@ def test_model_accuracy_threshold():
     accuracy = accuracy_score(y_test, y_pred)
 
     # Assert accuracy threshold
-    assert accuracy >= 0.9, (
-        f"Model accuracy {accuracy:.2f} is below acceptable threshold of 0.90."
-    )
+    assert (
+        accuracy >= 0.9
+    ), f"Model accuracy {accuracy:.2f} is below acceptable threshold of 0.90."
