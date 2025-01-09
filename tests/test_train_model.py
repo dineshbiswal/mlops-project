@@ -8,16 +8,27 @@ def test_model_training():
     Test if the train_model function successfully trains a model
     and saves it to the specified file.
     """
-    # Ensure no residual model file exists
-    model_path = "models/iris_model.pkl"
-    if os.path.exists(model_path):
-        os.remove(model_path)
+    # Define the directory where the model is saved
+    model_dir = "models"
+
+    # Ensure the models directory is clean
+    if os.path.exists(model_dir):
+        for file in os.listdir(model_dir):
+            os.remove(os.path.join(model_dir, file))
+    else:
+        os.makedirs(model_dir)
 
     # Call the train_model function
     train_model()
 
+    # Find the saved model file
+    saved_model_file = next(
+        (file for file in os.listdir(model_dir) if file.startswith("iris_model_")), None
+    )
+
     # Assert that the model file was created
-    assert os.path.exists(model_path), "Model file was not created."
+    assert saved_model_file is not None, "Model file was not created."
+    model_path = os.path.join(model_dir, saved_model_file)
 
     # Load the saved model and verify it's not None
     model = joblib.load(model_path)
@@ -44,8 +55,15 @@ def test_model_accuracy_threshold():
     # Call the train_model function
     train_model()
 
+    # Find the saved model file
+    model_dir = "models"
+    saved_model_file = next(
+        (file for file in os.listdir(model_dir) if file.startswith("iris_model_")), None
+    )
+    assert saved_model_file is not None, "Model file was not created."
+    model_path = os.path.join(model_dir, saved_model_file)
+
     # Load the trained model
-    model_path = "models/iris_model.pkl"
     model = joblib.load(model_path)
 
     # Predict and evaluate accuracy

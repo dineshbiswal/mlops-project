@@ -8,11 +8,12 @@ from sklearn.metrics import accuracy_score
 
 def train_model(n_estimators=100, max_depth=None):
     """
-    Train a RandomForest model on the Iris dataset with given parameters.
-
+    Train a RandomForest model on the Iris dataset
+    with given parameters.
     Parameters:
     - n_estimators (int): Number of trees in the forest.
-    - max_depth (int): Maximum depth of the tree. If None, nodes are expanded until all leaves are pure.
+    - max_depth (int): Maximum depth of the tree. If None,
+      nodes are expanded until all leaves are pure.
 
     Returns:
     - accuracy (float): Accuracy of the trained model.
@@ -30,7 +31,9 @@ def train_model(n_estimators=100, max_depth=None):
     )
 
     # Train model
-    model = RandomForestClassifier(n_estimators=n_estimators, max_depth=max_depth, random_state=42)
+    model = RandomForestClassifier(
+        n_estimators=n_estimators, max_depth=max_depth, random_state=42
+    )
     model.fit(X_train, y_train)
 
     # Evaluate model
@@ -47,5 +50,5 @@ def train_model(n_estimators=100, max_depth=None):
 
 
 if __name__ == "__main__":
-    
+
     train_model()

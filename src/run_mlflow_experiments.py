@@ -23,4 +23,5 @@ if __name__ == "__main__":
             accuracy = train_model(param["n_estimators"], param["max_depth"])
             mlflow.log_metric("accuracy", accuracy)
 
-            print(f"Experiment with params {param} completed. Accuracy: {accuracy:.2f}")
+            print(f"Experiment with params {param} completed."
+                  "Accuracy: {accuracy:.2f}")

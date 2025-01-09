@@ -3,3 +3,4 @@ joblib
 pytest
 flake8
 mlflow
+black
