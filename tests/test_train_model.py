@@ -23,7 +23,8 @@ def test_model_training():
 
     # Find the saved model file
     saved_model_file = next(
-        (file for file in os.listdir(model_dir) if file.startswith("iris_model_")), None
+        (file for file in os.listdir(model_dir)
+         if file.startswith("iris_model_")), None
     )
 
     # Assert that the model file was created
@@ -58,7 +59,8 @@ def test_model_accuracy_threshold():
     # Find the saved model file
     model_dir = "models"
     saved_model_file = next(
-        (file for file in os.listdir(model_dir) if file.startswith("iris_model_")), None
+        (file for file in os.listdir(model_dir)
+          if file.startswith("iris_model_")), None
     )
     assert saved_model_file is not None, "Model file was not created."
     model_path = os.path.join(model_dir, saved_model_file)
