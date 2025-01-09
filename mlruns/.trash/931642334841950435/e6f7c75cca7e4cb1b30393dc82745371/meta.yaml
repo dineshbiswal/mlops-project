@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/dinesh/BITS/SEM-3/MLOps/Assignment-1/mlops-project/mlruns/931642334841950435/e6f7c75cca7e4cb1b30393dc82745371/artifacts
+deleted_time: 1736450304180
+end_time: 1736448781008
+entry_point_name: ''
+experiment_id: '931642334841950435'
+lifecycle_stage: deleted
+run_id: e6f7c75cca7e4cb1b30393dc82745371
+run_name: glamorous-sloth-622
+run_uuid: e6f7c75cca7e4cb1b30393dc82745371
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736448777733
+status: 3
+tags: []
+user_id: dinesh

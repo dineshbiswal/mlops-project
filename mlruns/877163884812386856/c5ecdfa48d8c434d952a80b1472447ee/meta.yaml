@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dinesh/BITS/SEM-3/MLOps/Assignment-1/mlops-project/mlruns/877163884812386856/c5ecdfa48d8c434d952a80b1472447ee/artifacts
+end_time: 1736449975396
+entry_point_name: ''
+experiment_id: '877163884812386856'
+lifecycle_stage: active
+run_id: c5ecdfa48d8c434d952a80b1472447ee
+run_name: charming-trout-885
+run_uuid: c5ecdfa48d8c434d952a80b1472447ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736449975016
+status: 3
+tags: []
+user_id: dinesh

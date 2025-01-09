@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/dinesh/BITS/SEM-3/MLOps/Assignment-1/mlops-project/mlruns/931642334841950435/39a81aeae84d4a4082bc0eab6f8d861e/artifacts
+deleted_time: 1736450304180
+end_time: 1736448774927
+entry_point_name: ''
+experiment_id: '931642334841950435'
+lifecycle_stage: deleted
+run_id: 39a81aeae84d4a4082bc0eab6f8d861e
+run_name: hilarious-shad-497
+run_uuid: 39a81aeae84d4a4082bc0eab6f8d861e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736448770009
+status: 3
+tags: []
+user_id: dinesh

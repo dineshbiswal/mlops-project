@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/dinesh/BITS/SEM-3/MLOps/Assignment-1/mlops-project/mlruns/877163884812386856/a26ee2cbcd5b4d0f9d63676d6ef4854c/artifacts
+end_time: 1736449975014
+entry_point_name: ''
+experiment_id: '877163884812386856'
+lifecycle_stage: active
+run_id: a26ee2cbcd5b4d0f9d63676d6ef4854c
+run_name: respected-rook-62
+run_uuid: a26ee2cbcd5b4d0f9d63676d6ef4854c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736449974804
+status: 3
+tags: []
+user_id: dinesh
