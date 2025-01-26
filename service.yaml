@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: model_assignment_group85
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 5000
+  selector:
+    app: model_assignment_group85

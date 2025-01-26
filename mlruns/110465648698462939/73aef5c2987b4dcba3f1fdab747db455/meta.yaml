@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/Code_py/mlops-project/mlruns/110465648698462939/73aef5c2987b4dcba3f1fdab747db455/artifacts
+end_time: 1737510015278
+entry_point_name: ''
+experiment_id: '110465648698462939'
+lifecycle_stage: active
+run_id: 73aef5c2987b4dcba3f1fdab747db455
+run_name: abundant-colt-689
+run_uuid: 73aef5c2987b4dcba3f1fdab747db455
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737510015081
+status: 3
+tags: []
+user_id: hemam

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/Code_py/mlops-project/mlruns/110465648698462939/d34a12bcd2ef4b98a445a6e80c3e3795/artifacts
+end_time: 1737770548579
+entry_point_name: ''
+experiment_id: '110465648698462939'
+lifecycle_stage: active
+run_id: d34a12bcd2ef4b98a445a6e80c3e3795
+run_name: able-fly-388
+run_uuid: d34a12bcd2ef4b98a445a6e80c3e3795
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737770548457
+status: 3
+tags: []
+user_id: hemam

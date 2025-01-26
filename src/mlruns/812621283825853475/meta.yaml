@@ -1,0 +1,6 @@
+artifact_location: file:///D:/Study/Code_py/mlops-project/src/mlruns/812621283825853475
+creation_time: 1737772735027
+experiment_id: '812621283825853475'
+last_update_time: 1737772735027
+lifecycle_stage: active
+name: Model_HyperTuning

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/Code_py/mlops-project/mlruns/468765884210662957/d62b2e0258f34b3ea054bd15d8f11e74/artifacts
+end_time: 1737773126461
+entry_point_name: ''
+experiment_id: '468765884210662957'
+lifecycle_stage: active
+run_id: d62b2e0258f34b3ea054bd15d8f11e74
+run_name: loud-shoat-669
+run_uuid: d62b2e0258f34b3ea054bd15d8f11e74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737773126360
+status: 3
+tags: []
+user_id: hemam
