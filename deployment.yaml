@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: model_assignment_group85
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: model_assignment_group85
+  template:
+    metadata:
+      labels:
+        app: model_assignment_group85
+    spec:
+      containers:
+      - name: model_assignment_group85
+        image: mycontainerregistry.azurecr.io/model_assignment_group85:v1
+        ports:
+        - containerPort: 5000

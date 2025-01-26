@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/Code_py/mlops-project/mlruns/110465648698462939/a23b52f5a39b483781f005c4e39622ec/artifacts
+end_time: 1737511701577
+entry_point_name: ''
+experiment_id: '110465648698462939'
+lifecycle_stage: active
+run_id: a23b52f5a39b483781f005c4e39622ec
+run_name: powerful-worm-246
+run_uuid: a23b52f5a39b483781f005c4e39622ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737511701454
+status: 3
+tags: []
+user_id: hemam

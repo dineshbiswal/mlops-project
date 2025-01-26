@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/Code_py/mlops-project/mlruns/110465648698462939/67234aa87da0463fb2d4b5c1118d30a9/artifacts
+end_time: 1737511535575
+entry_point_name: ''
+experiment_id: '110465648698462939'
+lifecycle_stage: active
+run_id: 67234aa87da0463fb2d4b5c1118d30a9
+run_name: bold-penguin-269
+run_uuid: 67234aa87da0463fb2d4b5c1118d30a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737511535455
+status: 3
+tags: []
+user_id: hemam

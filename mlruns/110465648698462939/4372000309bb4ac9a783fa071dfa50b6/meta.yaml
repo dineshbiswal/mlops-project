@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/Code_py/mlops-project/mlruns/110465648698462939/4372000309bb4ac9a783fa071dfa50b6/artifacts
+end_time: 1737511872484
+entry_point_name: ''
+experiment_id: '110465648698462939'
+lifecycle_stage: active
+run_id: 4372000309bb4ac9a783fa071dfa50b6
+run_name: merciful-yak-390
+run_uuid: 4372000309bb4ac9a783fa071dfa50b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737511872413
+status: 3
+tags: []
+user_id: hemam
